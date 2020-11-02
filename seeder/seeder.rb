@@ -1,6 +1,6 @@
 require 'time'
 
-(0...200).each do |id|
+(0...1000).each do |id|
   pages << {
     url: "https://fetchtest.datahen.com/echo/request/#{id}",
     page_type: 'request',
