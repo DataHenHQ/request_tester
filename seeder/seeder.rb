@@ -4,7 +4,7 @@ require 'time'
   pages << {
     url: "https://fetchtest.datahen.com/echo/request/1",
     page_type: 'request',
-    freshness: Time.now.rfc3339,
+    freshness: DateTime.now.rfc3339,
     vars: {
       id: id
     }
