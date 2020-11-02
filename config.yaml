@@ -3,3 +3,8 @@ seeder:
 parsers:
   - file: ./parsers/request.rb
     page_type: request
+exporters:
+  - exporter_name: requests
+    exporter_type: json
+    collection: default
+    write_mode: pretty_array
